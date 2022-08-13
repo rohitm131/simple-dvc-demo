@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: /home/rohit/simple-app
-cmd: /home/rohit/anaconda3/envs/wineq/bin/python setup.py sdist --formats=zip --dist-dir /home/rohit/simple-app/.tox/dist
+cmd: /home/rohit/anaconda3/envs/wineq/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
 running sdist
 running egg_info
 writing src.egg-info/PKG-INFO
@@ -33,8 +33,7 @@ copying tests/__init__.py -> src-0.0.1/tests
 copying tests/conftest.py -> src-0.0.1/tests
 copying tests/test_config.py -> src-0.0.1/tests
 Writing src-0.0.1/setup.cfg
-creating /home/rohit/simple-app/.tox/dist
-creating '/home/rohit/simple-app/.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1/tests'
 adding 'src-0.0.1/src.egg-info'
